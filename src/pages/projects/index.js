@@ -1,12 +1,15 @@
-import React from 'react'
+import React from "react"
+import Layout from "../../components/Layout"
 
 const index = () => {
-    return (
-        <div>
-            <h1>Portfolio</h1>
-            <h3>Projects & Websites I've created</h3>
-        </div>
-    )
+  return (
+    <Layout>
+      <div>
+        <h1>Portfolio</h1>
+        <h3>Projects & Websites I've created</h3>
+      </div>
+    </Layout>
+  )
 }
 
 export default index
